@@ -51,12 +51,19 @@
                         <ul>
                             <li><a href="index.html">前言</a></li>
                             <li><a href="give.html">give 給予指令</a></li>
+                            <li><a href="tag.html">tag 標籤指令</a></li>
                         </ul>
                         </div>
                       </div>
                       <div class="span9">
                         <h1 style="font-size: 140%;">give 是非常重要的指令</h1>
                         <br>
+                        <span>使用方法:</span>
+                        <pre><code>/give (目標選擇器) (物品名) (數量) (數據值)</code></pre>
+                        <br>
+                        <span>如果要給自己 腐肉三塊，數據值為零的話是:</span>
+                        <pre id="give_commands_01"><code>/give @s rotten_flesh 3 0</code></pre>
+                        <button onclick="copy('give_commands_01')">複製</button>
                       </div>
                 </div>
               </div>
@@ -64,3 +71,4 @@
           </div>
     </body>
 </html>
+<script src="index.js"></script>

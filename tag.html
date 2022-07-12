@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="icon" href="image/commands.ico" type="image/x-icon" />
-        <title>指令教室前言</title>
+        <title>tag 指令教室</title>
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/diversen/pandoc-bootstrap-adaptive-template/959c3622/template.css" />
     
@@ -40,8 +40,7 @@
               </div>
               <div class="container">
                 <div class="Row">
-                    <h1>Minecraft 指令教室前言</h1>
-                    <p>指令是在作圖時非常重要的工具，點擊下面的選單來切換頁面吧</p>
+                    <h1>tag 指令</h1>
                 </div>
                 </div>
                 <div class="container">
@@ -57,12 +56,18 @@
                         </div>
                       </div>
                       <div class="span9">
-                        <span>這裡是你學習指令的地方 如果你有任何不會的地方 歡迎去dc找狼狗#4417</span>
+                        <span>讓成員添加標籤</span>
+                        <pre id="command_tag_01"><code>/tag add (成員名) (標籤名)</code></pre>
+                        <button onclick="copy('command_tag_01')">複製</button>
                         <br>
-                        <span>獲取指令方塊 指令:</span>
-                        <pre id="give_commands"><code>/give @s command_block</code></pre>
-                        <button onclick="copy('give_commands')">複製</button>
-                      </div>
+                        <span>讓成員移除標籤</span>
+                        <pre id="command_tag_02"><code>/tag remove (成員名) (標籤名)</code></pre>
+                        <button onclick="copy('command_tag_02')">複製</button>
+                        <br>
+                        <span>查看成員擁有的標籤</span>
+                        <pre id="command_tag_03"><code>/tag list (玩家名)</code></pre>
+                        <button onclick="copy('command_tag_03')">複製</button>
+                    </div>
                 </div>
               </div>
             </div>
